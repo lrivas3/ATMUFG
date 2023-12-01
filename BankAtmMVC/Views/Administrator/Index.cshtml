@@ -4,12 +4,12 @@
     ViewData["Title"] = "Search Bank User";
 }
 
-<h1>Search Users</h1>
+<h1>Buscar Usuarios</h1>
 
 <form asp-controller="Administrator" asp-action="Index" method="get">
     <p>
-        Title: <input type="text" name="searchValue">
-        <input type="submit" value="Filter" />
+        Título: <input type="text" name="searchValue">
+        <input type="submit" value="Filtrar" />
     </p>
 </form>
 
@@ -55,7 +55,7 @@
             </td>
             <td>
                 @*<a asp-action="Edit" asp-route-id="@item.Id">Edit</a> *@|
-                <a asp-controller="Transaction" asp-action="PersonalTransactions" asp-route-id="@item.Id">Show Transactions</a> |
+                <a asp-controller="Transaction" asp-action="PersonalTransactions" asp-route-id="@item.Id">Mostrar Transacciones</a> |
                 @*<a asp-action="Delete" asp-route-id="@item.Id">Delete</a>*@
             </td>
         </tr>
@@ -63,5 +63,5 @@
     </tbody>
 </table>
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Index">Volver a la Lista</a>
 </div>

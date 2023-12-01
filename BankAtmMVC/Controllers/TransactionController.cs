@@ -140,18 +140,18 @@ namespace BankAtmMVC.Controllers
 
         public void UtcToLocalDate(BankUser user)
         {
-            DateTime utcToLocal;
-
-            foreach (var transaction in user.Transactions)
+            if (user.Transactions != null)
             {
-                utcToLocal = transaction.Date.ToLocalTime();
-                transaction.Date = utcToLocal;
-
+                foreach (var transaction in user.Transactions)
+                {
+                    DateTime utcToLocal = transaction.Date.ToLocalTime();
+                    transaction.Date = utcToLocal;
+                }
             }
         }
 
-        }
     }
+}
 
     
 
