@@ -4,10 +4,10 @@
     ViewData["Title"] = "Personal Transactions";
 }
 
-    <h1>@Model.FirstName @Model.LastName's Transactions</h1>
+    <h1>Transacciones de @Model.FirstName @Model.LastName</h1>
 
 <div>
-    <h4>Transaction</h4>
+    <h4>Transacción</h4>
     <hr />
     
     @foreach (var item in Model.Transactions)
@@ -43,5 +43,5 @@
 
 </div>
 <div>
-    <a asp-controller="Home" asp-action="Index">Main Menu</a>
+    <a asp-controller="Home" asp-action="Index">Menú Principal</a>
 </div>

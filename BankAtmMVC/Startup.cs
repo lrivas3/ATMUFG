@@ -16,8 +16,6 @@ using Microsoft.Extensions.DependencyInjection;
 using BankAtmMVC.Models;
 using Microsoft.AspNetCore.Identity.UI.Services;
 
-using Microsoft.AspNetCore.Identity;
-
 namespace BankAtmMVC
 {
     public class Startup
