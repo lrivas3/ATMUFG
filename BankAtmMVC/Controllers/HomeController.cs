@@ -24,8 +24,16 @@ namespace BankAtmMVC.Controllers
         public IActionResult Index()
         {
             var currentId = User.FindFirst(ClaimTypes.NameIdentifier).Value;
-            var user = db.AspNetUsers.Where(i => i.Id == currentId).First();
-            return View(user);
+            var user = db.AspNetUsers.FirstOrDefault(i => i.Id == currentId);
+
+            if (user != null)
+            {
+                return View(user);
+            }
+            else
+            {
+                return NotFound(); 
+            }
         }
 
         public IActionResult Privacy()
