@@ -12,7 +12,7 @@ ATM Web Application built with ASP.NET Core and MVC pattern
 | --------                      | -------               |
 | Emerson Leonardo Rivas Mejía  | RM101421              |
 | Glendy Lisbeth Argueta Rivera | AR100621              |
-| Agreguen su nombre            |   Agreguen su Carnet  |
+| Nelson Ivan Colorado Lainez   | CL100511              |
 | Agreguen su nombre            |   Agreguen su Carnet  |
 | Agreguen su nombre            |   Agreguen su Carnet  |
 | Agreguen su nombre            |   Agreguen su Carnet  |
