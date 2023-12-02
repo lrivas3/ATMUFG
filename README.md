@@ -15,7 +15,7 @@ ATM Web Application built with ASP.NET Core and MVC pattern
 | Nelson Ivan Colorado Lainez   | CL100511              |
 | Celso Abraham García Cáceres  | GC100221              |
 | Caleb Isai Hernandez Ramos    | HR100621              |
-| Agreguen su nombre            |   Agreguen su Carnet  |
+| Brett Alexander Carcamo Paz   | CP100320              |
 | Agreguen su nombre            |   Agreguen su Carnet  |
 | Agreguen su nombre            |   Agreguen su Carnet  |
 
